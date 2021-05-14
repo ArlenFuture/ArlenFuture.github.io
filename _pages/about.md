@@ -3,6 +3,16 @@ permalink: /about/
 title: "About"
 ---
 
-Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. Ut eu pariatur aute ea aute excepteur laborum. Esse ea esse excepteur minim mollit qui cillum excepteur ex dolore magna. Labore deserunt fugiat incididunt incididunt sint ea. Consequat dolore aute laboris quis proident quis non et est consectetur ex eiusmod sit culpa.
+阿愣的技術閒聊會分享有趣的技術知識，包含軟體開發、手機刷機、軟體應用，還有一些軟體人可能會遇到的問題。
 
-Cupidatat ea do et in excepteur in. Ad nostrud ut est esse eu duis ea sunt eiusmod. Aliquip tempor veniam sint elit fugiat. Velit incididunt laboris amet incididunt labore dolore irure velit excepteur commodo deserunt laborum. Consectetur eu fugiat veniam veniam Lorem labore magna eiusmod. Ea occaecat reprehenderit pariatur consectetur minim labore ut aliquip.
+## 軟體開發
+
+分享開發遇到的問題，例如:環境部屬、版本異動重大變更及少量的設計模式。
+
+## 手機刷機
+
+以手邊現有裝置去刷機，會推薦一些特定型號的Rom。
+
+## 軟體應用
+
+不分平台好用的軟體，這邊都會去推薦。
