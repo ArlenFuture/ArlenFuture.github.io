@@ -54,6 +54,12 @@ include:
 google:
   search_engine_id: 509388da392ba0438
 
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "G-NLM48KXZD3"
+    anonymize_ip: false # default
+
 # Plugins (previously gems:)
 plugins:
   - jekyll-paginate
