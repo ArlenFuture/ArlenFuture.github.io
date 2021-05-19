@@ -49,6 +49,11 @@ include:
 #   - vendor/gems/
 #   - vendor/ruby/
 
+# Google Custom Search EnginePermalink
+
+google:
+  search_engine_id: 509388da392ba0438
+
 # Plugins (previously gems:)
 plugins:
   - jekyll-paginate
