@@ -55,7 +55,7 @@ jekyll -v
 
 ![jekyll version](/assets/images/post/2021-05-18-create-blog-with-jekyll-in-github-pages/2.jpg "jekyll version")
 
-1. 這時到你Clone專案的地方下這個指令安裝套
+1. 這時到你Clone專案的地方下這個指令安裝套件
 ```
 bundle install
 ``` 
