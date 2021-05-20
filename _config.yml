@@ -49,10 +49,12 @@ include:
 #   - vendor/gems/
 #   - vendor/ruby/
 
-# Google Custom Search EnginePermalink
+# Google Custom Search Engine
 
 google:
   search_engine_id: 509388da392ba0438
+
+# Google Analytics
 
 analytics:
   provider: "google-gtag"

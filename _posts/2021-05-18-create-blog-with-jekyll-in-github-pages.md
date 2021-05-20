@@ -47,18 +47,33 @@ tags:
 
 ### Step3. 測試在本機預覽Jekyll專案
 
-首先進入CMD `jekyll -v` 看一下版本資訊，基本上就確定它的安裝
+首先進入CMD 
+```
+jekyll -v
+``` 
+看一下版本資訊，基本上就確定它的安裝
 
 ![jekyll version](/assets/images/post/2021-05-18-create-blog-with-jekyll-in-github-pages/2.jpg "jekyll version")
 
-1. 這時到你Clone專案的地方下這個指令 `bundle install` 安裝套件 
-2. 執行這段 `bundle exec jekyll serve` 把專案跑起來
+1. 這時到你Clone專案的地方下這個指令安裝套
+```
+bundle install
+``` 
+
+2. 執行這段把專案跑起來
+```
+bundle exec jekyll serve
+``` 
+
 
 如果出現像是下面這樣的問題
 
 ![bundle exec jekyll serve error](/assets/images/post/2021-05-18-create-blog-with-jekyll-in-github-pages/3.jpg "bundle exec jekyll serve error")
 
-去_config.yml加入這個參數`repository: UserName/UserName.github.io`，一樣`UserName`替換成自己的。
+去_config.yml加入這個參數一樣`UserName`替換成自己的。
+```
+repository: UserName/UserName.github.io
+```
 
 像是下圖
 
