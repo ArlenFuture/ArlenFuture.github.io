@@ -8,9 +8,10 @@ tags:
   - blog
   - Google Search
   - SEO
+  - Minimal Mistakes
 ---
 
-網站架設後，希望自己的網站能在Google搜尋出現，所以使用了Google Search Console，這篇會教你如何使用Google Search Console加入自己網站，以提升SEO。
+網站架設後，希望自己的網站能在Google搜尋出現，所以使用了Google Search Console，這篇會教你如何使用Google Search Console加入自己網站(Minimal Mistakes)，以提升SEO。
 
 ## 特色
 
