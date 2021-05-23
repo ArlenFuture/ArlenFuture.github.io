@@ -1,8 +1,8 @@
 ---
-title: "【從零開始提升觀賞影片品質 #1】A卡上開啟Fluid Motion"
+title: "【提升觀賞影片品質 #1】A卡上開啟Fluid Motion"
 date: 2021-05-23T00:00:00+08:00
 categories:
-  - 從零開始提升觀賞影片品質
+  - 提升觀賞影片品質
 tags:
   - AMD
   - Fluid Motion
