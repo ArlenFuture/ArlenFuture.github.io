@@ -9,8 +9,7 @@ tags:
   - Bluesky Frame Rate Converter
   - Potplayer
 ---
-
-這篇會教你如何在A卡上開啟Fluid Motion，並套用在Potplayer上面。
+先簡單跟各位聊聊Fluid Motion，這個技術主要是把原生24幀或30幀的影片透過演算法的方式補幀到60幀，藉此來提升影片流暢度，這篇會教你如何在A卡上開啟Fluid Motion，並套用在Potplayer上面。
 
 ## 特色
 
