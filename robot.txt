@@ -1,1 +1,3 @@
+User-agent: *
+Allow: /
 Sitemap: https://arlenfuture.github.io/sitemap.xml
