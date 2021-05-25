@@ -1,8 +1,8 @@
 ---
-title: "【提升觀賞影片品質 #1】A卡上開啟Fluid Motion"
+title: "【影片好好看 #1】提升影片流暢度，在A卡上開啟Fluid Motion"
 date: 2021-05-23T00:00:00+08:00
 categories:
-  - 提升觀賞影片品質
+  - 影片好好看
 tags:
   - AMD
   - Fluid Motion
