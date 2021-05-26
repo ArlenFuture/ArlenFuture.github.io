@@ -33,13 +33,37 @@ tags:
 
 驗證完後他會給一組ID，將這個ID加入_config.yml，如下圖
 
-![Config](/assets/images/post/2021-05-20-How-to-Add-Google-Search-to-blog-and-improve-seo/2.jpg "Google Search Console")
+![Config](/assets/images/post/2021-05-20-How-to-Add-Google-Search-to-blog-and-improve-seo/2.jpg "Config")
 
 ```
 google:
   search_engine_id: YourID
 ```
 
-### Step4. 完成
+### Step4. 為自己的首頁建立索引
+
+在網站審查這裡輸入自己想要加入索引的網址，記得點測試線上網址，如果都符合會加快處理效率。
+![Website Create Index](/assets/images/post/2021-05-20-How-to-Add-Google-Search-to-blog-and-improve-seo/3.jpg "Website Create Index")
+### Step5. 完成
 
 如果是網站剛上線或內容不多，會比較晚才出現在網頁搜尋中，記得耐心等待喔。
+
+想要確定可以透過兩種方式
+
+透過url搜尋，但別把協定加進來
+```
+site:url
+```
+![Search with site](/assets/images/post/2021-05-20-How-to-Add-Google-Search-to-blog-and-improve-seo/4.jpg "Search with site")
+
+透過網站名稱搜尋
+```
+網站名稱
+```
+![Search with name](/assets/images/post/2021-05-20-How-to-Add-Google-Search-to-blog-and-improve-seo/5.jpg "Search with name")
+
+兩種建議都測試過，因為有可能索引將網址加入，但搜尋名稱可能還未加入。
+
+### TroubleShooting
+
+目前網站Sitemap還未提供到Google Search Console，因為Googlebot無法Fetch到，但URL測試工具都可以正常Fetch到，所以目前還在了解中，解決後，會再另外開一篇文章。
