@@ -18,6 +18,7 @@ title: 阿冷的技術閒聊
 # email:
 description: >- # this means to ignore newlines until "baseurl:"
   阿冷的技術閒聊會分享有趣的技術知識，包含軟體開發、手機刷機、軟體應用，還有一些軟體人可能會遇到的問題。
+logo: "/assets/images/80x80.png"
 # twitter_username: username
 github_username: ArlenFuture
 minimal_mistakes_skin: dark
