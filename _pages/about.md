@@ -16,3 +16,7 @@ title: "關於"
 ## 軟體應用
 
 不分平台好用的軟體，這邊都會去推薦。
+
+## 授權
+
+該網站內的文章，除另有註明，網站之文章內容皆採用[【姓名標示-相同方式分享 4.0 國際 (CC BY-SA 4.0)】](https://creativecommons.org/licenses/by-sa/4.0/deed.zh_TW) 授權條款，範例程式碼皆採用[【MIT授權條款】](https://opensource.org/licenses/MIT)。
