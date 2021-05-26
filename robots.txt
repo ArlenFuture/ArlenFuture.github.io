@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: http://arlenfuture.github.io/sitemap.xml
+Sitemap: https://arlenfuture.github.io/sitemap.xml
