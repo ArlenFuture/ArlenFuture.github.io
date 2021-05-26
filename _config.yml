@@ -30,7 +30,7 @@ repository: ArlenFuture/ArlenFuture.github.io
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
 # Outputting
-permalink: /:year/:month/:day/:title/
+permalink: /blog/:year/:month/:day/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: Asia/Taipei # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
