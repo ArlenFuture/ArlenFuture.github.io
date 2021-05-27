@@ -62,8 +62,8 @@ analytics:
   google:
     tracking_id: "G-NLM48KXZD3"
     anonymize_ip: false # default
-# disqus comments
 
+# disqus comments
 comments:
   provider: "disqus"
   disqus:
@@ -81,7 +81,7 @@ plugins:
 author:
   name   : "Arlen(阿冷)"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "遇到感興趣的技術，總是會想親自瞭解它後，並用自己的方法去實踐它。"
+  bio    : "好好工作，好好玩，在合適的時間，做合適的事。"
   links:
     # - label: "Website"
     #   icon: "fas fa-fw fa-link"
