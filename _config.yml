@@ -62,6 +62,12 @@ analytics:
   google:
     tracking_id: "G-NLM48KXZD3"
     anonymize_ip: false # default
+# disqus comments
+
+comments:
+  provider: "disqus"
+  disqus:
+    shortname: "arlenfuture"
 
 # Plugins (previously gems:)
 plugins:
