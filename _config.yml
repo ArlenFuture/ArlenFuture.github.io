@@ -63,11 +63,13 @@ analytics:
     tracking_id: "G-NLM48KXZD3"
     anonymize_ip: false # default
 
-# disqus comments
+# facebook comments
 comments:
-  provider: "disqus"
-  disqus:
-    shortname: "arlenfuture"
+  provider               : "facebook"
+  facebook:
+    appid                : # optional
+    num_posts            : 5 # 5 (default)
+    colorscheme          : "dark" # "light" (default), "dark"
 
 # Plugins (previously gems:)
 plugins:
