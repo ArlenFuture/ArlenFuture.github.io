@@ -100,6 +100,9 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/ArlenFuture"
+    - label: "Privacy policy"
+      icon: "fas fa-book"
+      url: "https://arlenfuture.github.io/privacy-policy/"
 
 defaults:
   # _posts
