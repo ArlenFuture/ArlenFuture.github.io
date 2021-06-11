@@ -7,3 +7,5 @@ main:
     url: /tags/
   - title: "關於"
     url: /about/
+  - title: "隱私權政策"
+    url: /privacy-policy/
