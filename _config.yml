@@ -63,11 +63,13 @@ analytics:
     tracking_id: "G-NLM48KXZD3"
     anonymize_ip: false # default
 
-# disqus comments
+# facebook comments
 comments:
-  provider: "disqus"
-  disqus:
-    shortname: "arlenfuture"
+  provider: "facebook"
+  facebook:
+    appid: 2920109104894520
+    num_posts: 5
+    colorscheme: "light"
 
 # Plugins (previously gems:)
 plugins:
@@ -79,9 +81,9 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "Arlen(阿冷)"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "好好工作，好好玩，在合適的時間，做合適的事。"
+  name: "Arlen(阿冷)"
+  avatar: "/assets/images/bio-photo.jpg"
+  bio: "好好工作，好好玩，在合適的時間，做合適的事。"
   links:
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook"
@@ -89,7 +91,6 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/ArlenFuture"
-
 
 footer:
   links:
@@ -99,7 +100,6 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/ArlenFuture"
-
 
 defaults:
   # _posts
