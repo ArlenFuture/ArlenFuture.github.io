@@ -1,5 +1,5 @@
 ---
-title: "【從零開始架設部落格 #3】將自己的部落格加入Google分析"
+title: "【架設部落格 #3】將自己的部落格加入Google分析"
 date: 2021-05-21T00:00:00+08:00
 categories:
   - 從零開始架設部落格
@@ -10,12 +10,12 @@ tags:
   - Minimal Mistakes
 ---
 
-這篇會教你如何在自己網站(Minimal Mistakes)上加入Google分析(Google Analytics)，對使用者操作流量得到更進一步的分析。
+這篇會教你如何在自己網站(Minimal Mistakes)上加入 Google 分析(Google Analytics)，對使用者操作流量得到更進一步的分析。
 
 ## 特色
 
-* 免費
-* 設定簡單
+- 免費
+- 設定簡單
 
 ## 建置流程
 
@@ -41,7 +41,7 @@ tags:
 
 ### Step4. 網站串流
 
-這裡要串流到你的網站，然後取得你的評估ID。
+這裡要串流到你的網站，然後取得你的評估 ID。
 
 ![串流設定1](/assets/images/post/2021-05-21-How-to-Add-Google-Analytics-to-blog/4.jpg "串流設定1")
 
@@ -49,9 +49,10 @@ tags:
 
 ![串流設定3](/assets/images/post/2021-05-21-How-to-Add-Google-Analytics-to-blog/6.jpg "串流設定3")
 
-### Step5. 將剛剛取得的評估ID加入自己_config.yml
+### Step5. 將剛剛取得的評估 ID 加入自己\_config.yml
 
-將下面這段Code加入至_config.yml，tracking_id記得替換成自己上面拿到的。
+將下面這段 Code 加入至\_config.yml，tracking_id 記得替換成自己上面拿到的。
+
 ```
 analytics:
   provider: "google-gtag"
@@ -59,11 +60,11 @@ analytics:
     tracking_id: "評估ID"
     anonymize_ip: false # default
 ```
+
 加入後會像這樣
 
 ![程式設定](/assets/images/post/2021-05-21-How-to-Add-Google-Analytics-to-blog/7.jpg "程式設定")
 
 ### Step6. 完成
 
-將這個的異動Push到Github後，記得進去網站內操作一下留下紀錄。就能直接在Google分析內看到結果囉。
-
+將這個的異動 Push 到 Github 後，記得進去網站內操作一下留下紀錄。就能直接在 Google 分析內看到結果囉。
