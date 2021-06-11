@@ -1,10 +1,11 @@
 ---
-title: "【開發好好用 #1】在本機快速架設測試用SMTP伺服器"
+title: "[#1]在開發環境下快速架設測試用SMTP伺服器【開發好好用】"
 date: 2021-05-25T00:00:00+08:00
 categories:
   - 開發好好用
 tags:
   - SMTP
+  - Mail Server
   - .NET Core
   - C#
 ---

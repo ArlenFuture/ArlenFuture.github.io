@@ -1,5 +1,5 @@
 ---
-title: "【影片好好看 #1】提升影片流暢度，在A卡上開啟Fluid Motion"
+title: "[#1】提升影片流暢度，在A卡上開啟Fluid Motion【影片好好看】"
 date: 2021-05-23T00:00:00+08:00
 categories:
   - 影片好好看

@@ -1,5 +1,5 @@
 ---
-title: "【架設部落格 #1】利用Jekyll在Github Pages上免費架設個人部落格"
+title: "[#1]利用Jekyll在Github Pages上免費架設個人部落格【架設部落格】"
 date: 2021-05-18T16:20:02+08:00
 categories:
   - 從零開始架設部落格
