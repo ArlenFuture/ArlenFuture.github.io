@@ -1,27 +1,32 @@
-# Minimal Mistakes remote theme starter
+# About The Project
 
-Click [**Use this template**](https://github.com/mmistakes/mm-github-pages-starter/generate) button above for the quickest method of getting started with the [Minimal Mistakes Jekyll theme](https://github.com/mmistakes/minimal-mistakes).
+This project can create a static website. Project objective is satisfy my need about information sharing and reducing cost to maintain this project. 
 
-Contains basic configuration to get you a site with:
+# Built With
 
-- Sample posts.
-- Sample top navigation.
-- Sample author sidebar with social links.
-- Sample footer links.
-- Paginated home page.
-- Archive pages for posts grouped by year, category, and tag.
-- Sample about page.
-- Sample 404 page.
-- Site wide search.
+- [Minimal Mistakes Jekyll theme](https://github.com/mmistakes/minimal-mistakes)
+- [Facebook comment](https://developers.facebook.com/docs/plugins/comments/)
 
-Replace sample content with your own and [configure as necessary](https://mmistakes.github.io/minimal-mistakes/docs/configuration/).
 
----
+# Getting Started
 
-## Troubleshooting
+This is an example of how you may give instructions on setting up your project locally. To get a local copy up and running follow these simple example steps.
 
-If you have a question about using Jekyll, start a discussion on the [Jekyll Forum](https://talk.jekyllrb.com/) or [StackOverflow](https://stackoverflow.com/questions/tagged/jekyll). Other resources:
+## Prerequisites
 
-- [Ruby 101](https://jekyllrb.com/docs/ruby-101/)
-- [Setting up a Jekyll site with GitHub Pages](https://jekyllrb.com/docs/github-pages/)
-- [Configuring GitHub Metadata](https://github.com/jekyll/github-metadata/blob/master/docs/configuration.md#configuration) to work properly when developing locally and avoid `No GitHub API authentication could be found. Some fields may be missing or have incorrect data.` warnings.
+You can refer this url to install Jekyll first.
+- [Jekyll Documents](https://jekyllrb.com/docs/)
+
+## Build and Run
+
+   ```sh
+   bundle install
+   ```
+ 
+   ```sh
+   bundle exec jekyll serve
+   ```
+If you are using Ruby version 3.0.0 or higher You may fix it by adding webrick to your dependencies 
+   ```sh
+   bundle add webrick
+   ```
