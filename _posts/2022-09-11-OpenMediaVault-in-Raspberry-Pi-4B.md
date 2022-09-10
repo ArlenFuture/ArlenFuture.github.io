@@ -74,6 +74,7 @@ Password: openmediavault
 ![建立自己的憑證](/assets/images/post/2022-09-11-OpenMediaVault-in-Raspberry-Pi-4B/2.jpg "建立自己的憑證")
 
 #### 系統 -> 工作台
+
 勾選以下選項，並選擇剛剛建立的憑證。
 - SSL/TLS已啟用
 - 強制SSL/TLS
@@ -90,7 +91,18 @@ https://ipaddress
 
 系統 -> 更新管理 -> 更新
 
-### Step9. Done!
+### Step9. 個人推薦插件
+
+此步驟非必要，這是一個能在儀表板顯示CPU溫度的插件，個人認為對樹梅派是很重要的功能，尤其是無風扇或者裸版用戶。
+
+系統 -> 插件
+~~~
+openmediavault-cputemp 6.1.1
+~~~
+![cputemp](/assets/images/post/2022-09-11-OpenMediaVault-in-Raspberry-Pi-4B/4.jpg "cputemp")
+![cputemp sample](/assets/images/post/2022-09-11-OpenMediaVault-in-Raspberry-Pi-4B/5.jpg "cputemp sample")
+
+### Step10. Done!
 
 基本設定就到此為止了~
 
