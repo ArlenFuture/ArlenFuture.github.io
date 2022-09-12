@@ -1,5 +1,7 @@
 ---
 title: "將你的樹梅派化身為個人NAS【樹梅派】"
+header:
+  teaser: "/assets/images/post/2022-09-11-OpenMediaVault-in-Raspberry-Pi-4B/teaser.png"
 date: 2022-09-11T00:00:00+08:00
 categories:
   - 樹梅派
