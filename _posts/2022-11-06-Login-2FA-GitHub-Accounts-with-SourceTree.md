@@ -1,10 +1,10 @@
 ---
-title: "解決SourceTree無法登入雙因素驗證(2FA)的Github帳號【開發好好用】"
+title: "解決SourceTree無法登入雙因素驗證(2FA)的Github帳號【SourceTree】"
 header:
   teaser: "/assets/images/post/2022-11-06-Login-2FA-GitHub-Accounts-with-SourceTree/teaser.jpg"
 date: 2022-11-06T00:00:00+08:00
 categories:
-  - 開發好好用
+  - SourceTree
 tags:
   - SourceTree
   - GitHub
