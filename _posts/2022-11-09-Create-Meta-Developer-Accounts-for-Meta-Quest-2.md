@@ -15,7 +15,7 @@ tags:
 
 ## 開啟步驟
 ### [Device Setup](https://developer.oculus.com/documentation/native/android/mobile-device-setup/)
-1. 前面註冊的部份，可以參考上面度官方文件到```Verify Your Account```，我這邊不多做敘述。
+1. 前面註冊的部份，可以參考上面的官方文件到```Verify Your Account```，我這邊不多做敘述。
 2. 從手機APP去啟用開發人員模式。
 ~~~
 Menu -> 裝置 -> 往下滑 -> 開發人員模式。
