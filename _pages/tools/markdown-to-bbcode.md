@@ -1,6 +1,6 @@
 ---
 title: Markdown 轉 BBCode 工具｜支援巴哈姆特發文格式
-layout: single
+layout: splash
 permalink: /tools/markdown-to-bbcode/
 classes: wide
 comments: false
@@ -15,23 +15,11 @@ title_meta: Markdown 轉 BBCode 線上工具｜支援巴哈姆特發文格式
 description: 將常見的 Markdown 語法（如粗體、圖片、連結）轉換為巴哈姆特支援的 BBCode，適合創作者發表作品、遊戲介紹、心得文使用。
 canonical_url: https://arlenfuture.github.io/tools/markdown-to-bbcode/
 
+
 ---
+# Markdown 轉 BBCode 工具｜支援巴哈姆特發文格式
 
 > 將常見的 Markdown 語法轉換為巴哈姆特支援的 BBCode 格式。支援標題、粗體、斜體、連結、圖片等基本語法，適合創作分享使用。
-
-## ✅ 支援語法對照表
-
-| Markdown              | BBCode                         |
-|-----------------------|--------------------------------|
-| `# 標題`              | `[size=6][b]標題[/b][/size]`   |
-| `**粗體**`            | `[b]粗體[/b]`                  |
-| `*斜體*`              | `[i]斜體[/i]`                  |
-| `~~刪除線~~`          | `[s]刪除線[/s]`                |
-| `` `程式碼` ``        | `[code]程式碼[/code]`          |
-| `[名稱](網址)`        | `[url=網址]名稱[/url]`         |
-| `![替代文字](圖片網址)`| `[img]圖片網址[/img]`           |
-
----
 
 ## 🛠 Markdown → BBCode 工具
 
@@ -114,3 +102,19 @@ function copyBBCode() {
   alert("已複製 BBCode！");
 }
 </script>
+
+
+## ✅ 支援語法對照表
+
+| Markdown              | BBCode                         |
+|-----------------------|--------------------------------|
+| `# 標題`              | `[size=6][b]標題[/b][/size]`   |
+| `**粗體**`            | `[b]粗體[/b]`                  |
+| `*斜體*`              | `[i]斜體[/i]`                  |
+| `~~刪除線~~`          | `[s]刪除線[/s]`                |
+| `` `程式碼` ``        | `[code]程式碼[/code]`          |
+| `[名稱](網址)`        | `[url=網址]名稱[/url]`         |
+| `![替代文字](圖片網址)`| `[img]圖片網址[/img]`           |
+
+---
+
