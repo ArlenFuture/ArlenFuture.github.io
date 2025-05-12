@@ -62,7 +62,13 @@ canonical_url: https://arlenfuture.github.io/tools/markdown-to-bbcode/
 </style>
 
 <div class="markdown-bbcode-container">
-  <textarea id="markdown" placeholder="請輸入 Markdown 內容..."></textarea>
+  <div style="flex: 1;">
+    <textarea id="markdown" placeholder="請輸入 Markdown 內容..."></textarea>
+      <div style="margin-top: 0.5rem; display: flex; gap: 0.5rem;">
+        <button class="copy-button" style="background: #888;" onclick="loadExample()">🧪 載入範例</button>
+        <button class="copy-button" style="background: #cc4444;" onclick="clearInput()">🧹 清除內容</button>
+      </div>
+  </div>
   <div class="output" style="flex: 1;">
     <textarea id="bbcode" readonly placeholder="這裡會顯示 BBCode 結果..."></textarea>
     <button class="copy-button" onclick="copyBBCode()">📋 複製 BBCode</button>
@@ -100,15 +106,8 @@ function convertMarkdownToBBCode(md) {
   // 連結
   bb = bb.replace(/\[(.*?)\]\((.*?)\)/gim, '[url=$2]$1[/url]');
 
-  // 有序清單：1. xxx
-  bb = bb.replace(/(?:^|\n)(\d+)\. (.+)/g, function (_, num, item) {
-    return '\n[ol]\n[li]' + item + '[/li]\n[/ol]';
-  });
-
-  // 無序清單：- xxx
-  bb = bb.replace(/(?:^|\n)- (.+)/g, function (_, item) {
-    return '\n[ul]\n[li]' + item + '[/li]\n[/ul]';
-  });
+  // 巢狀清單處理
+  bb = convertNestedLists(bb);
 
   // 移除多餘的 list 標籤
   bb = bb.replace(/\[\/ul\]\s*\[ul\]/g, '');
@@ -120,10 +119,119 @@ function convertMarkdownToBBCode(md) {
   return bb.trim();
 }
 
+// 將支援巢狀的 Markdown 清單轉換成對應的 BBCode 格式
+function convertNestedLists(md) {
+  const lines = md.split('\n'); // 將輸入內容按行拆開
+  let bbcode = '';              // 最終輸出的 BBCode 結果
+  const stack = [];             // 用來追蹤目前巢狀層級與 list 類型
+
+  // 計算每行前面的縮排空格數，作為巢狀層級依據
+  const getIndentLevel = (line) => line.match(/^(\s*)/)[1].length;
+
+  lines.forEach((line) => {
+    const trimmed = line.trim();          // 去除行首行尾空白
+    const indent = getIndentLevel(line);  // 計算目前這行的縮排數
+
+    // 判斷無序清單：- xxx
+    const unorderedMatch = trimmed.match(/^[-*+] (.+)/);
+
+    // 判斷有序清單：1. xxx
+    const orderedMatch = trimmed.match(/^\d+\. (.+)/);
+
+    let type = null;
+    let content = '';
+
+    // 判斷是無序還是有序，並提取內容
+    if (unorderedMatch) {
+      type = 'ul';
+      content = unorderedMatch[1];
+    } else if (orderedMatch) {
+      type = 'ol';
+      content = orderedMatch[1];
+    } else {
+      // 如果這行不是清單項目，結束所有清單標籤，回到正常段落處理
+      while (stack.length > 0) {
+        const tag = stack.pop();
+        bbcode += `[/${tag.type}]\n`; // 關閉清單標籤
+      }
+      // 將當前行的原始文字加入 BBCode 字串並換行
+      bbcode += line + '\n'; 
+      return;
+    }
+
+    // 當前縮排比堆疊頂層小，表示需要關閉一層清單結構
+    while (stack.length > 0 && indent < stack[stack.length - 1].indent) {
+      const tag = stack.pop();
+      bbcode += `[/${tag.type}]\n`;
+    }
+
+    // 如果當前行為新層級的清單，或清單類型改變，新增一層清單結構
+    if (
+      stack.length === 0 ||
+      indent > stack[stack.length - 1].indent ||
+      stack[stack.length - 1].type !== type
+    ) {
+      bbcode += `[${type}]\n`;
+      stack.push({ type, indent });
+    }
+
+    // 加入實際清單內容
+    bbcode += `[li]${content}[/li]\n`;
+  });
+
+  // 處理結尾時還殘留在 stack 中的清單，逐一關閉
+  while (stack.length > 0) {
+    const tag = stack.pop();
+    bbcode += `[/${tag.type}]\n`;
+  }
+
+  return bbcode;
+}
+
 function copyBBCode() {
   bbOutput.select();
   document.execCommand("copy");
   alert("已複製 BBCode！");
+}
+
+function loadExample() {
+  const exampleMarkdown = `
+# 標題1
+## 標題2
+### 標題3
+
+**粗體文字**
+*斜體文字*
+~~刪除線~~
+
+\`單行程式碼\`
+\`\`\`
+多行程式碼
+多行程式碼
+\`\`\`
+
+[Google](https://www.google.com)
+
+![圖片](https://example.com/image.jpg)
+
+- 無序清單項目 1
+- 無序清單項目 2
+
+- 巢狀清單項目
+  - 更深層的清單項目
+  
+1. 有序清單項目 1
+2. 有序清單項目 2
+3. 巢狀有序清單項目
+  1. 更深層的有序清單項目
+  `;
+  mdInput.value = exampleMarkdown;
+  bbOutput.value = convertMarkdownToBBCode(exampleMarkdown);
+}
+
+function clearInput() {
+  mdInput.value = '';
+  bbOutput.value = '';
 }
 </script>
 
@@ -146,7 +254,9 @@ function copyBBCode() {
 
 ### ⚠️ 注意事項
 
-> 為避免貼文出現 `&#91;code&#93;` 等 HTML 編碼問題，本工具將原本的 `[code]` 語法改為使用 `[quote]` 顯示程式碼。如果你熟悉巴哈排版格式，也可自行將 `[quote]` 改回 `[code]` 使用。
+> 為避免貼文出現 &#91;code&#93; 等 HTML 編碼問題，本工具將原本的 [code] 語法改為使用 [quote] 顯示程式碼。如果你熟悉巴哈排版格式，也可自行將 [quote] 改回 [code] 使用。
+> 
+> 目前使用巢狀清單或縮排格式時，可能會產生多餘的空格或空行，建議貼上巴哈前手動檢查並刪除不必要的空格，以避免版面混亂。
 
 ---
 
