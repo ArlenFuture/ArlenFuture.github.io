@@ -6,11 +6,11 @@ classes: wide
 comments: false
 share: true
 
-excerpt: 收錄實用工具，如 Markdown 轉 BBCode 工具。
+excerpt: 收錄實用工具，如 Markdown 轉 BBCode 工具、亂2 Online 盟徽裁切器等，幫助創作者與玩家更有效率地處理內容。
 
 # SEO
-title_meta: 創作工具箱｜Markdown、BBCode、巴哈姆特發表工具
-description: 提供實用線上工具協助創作者轉換 Markdown、產出 BBCode，支援巴哈姆特發表，完全免費、即時轉換。
+title_meta: 創作工具箱｜Markdown、BBCode、亂2 Online 盟徽製作
+description: 提供實用線上工具協助創作者與玩家，包括 Markdown → BBCode 轉換器、亂2 Online 盟徽裁切器等，支援即時轉換、像素縮放、固定尺寸輸出。
 canonical_url: https://arlenfuture.github.io/tools/
 ---
 
@@ -21,6 +21,11 @@ canonical_url: https://arlenfuture.github.io/tools/
 <a class="tool-card" href="/tools/markdown-to-bbcode/">
   <h3>Markdown → BBCode 工具</h3>
   <p>將 Markdown 語法即時轉換為巴哈姆特 BBCode，適合心得文、遊戲介紹、角色發表。</p>
+</a>
+
+<a class="tool-card" href="/tools/ran2-badge-cropper/">
+  <h3>亂2 Online 盟徽裁切器</h3>
+  <p>為《亂2 Online》製作固定 16x11 的盟徽圖片，支援比例裁切與縮放演算法選擇。</p>
 </a>
 
 <!-- 預留空間，未來擴充用 -->
