@@ -87,9 +87,9 @@ function convertMarkdownToBBCode(md) {
   let bb = md;
 
   // 標題處理
-  bb = bb.replace(/^### (.*$)/gim, '[size=4][b]$1[/b][/size]');
-  bb = bb.replace(/^## (.*$)/gim, '[size=5][b]$1[/b][/size]');
-  bb = bb.replace(/^# (.*$)/gim, '[size=6][b]$1[/b][/size]');
+  bb = bb.replace(/^### (.*$)/gim, '[size=3][b]$1[/b][/size]');
+  bb = bb.replace(/^## (.*$)/gim, '[size=4][b]$1[/b][/size]');
+  bb = bb.replace(/^# (.*$)/gim, '[size=5][b]$1[/b][/size]');
 
   // 粗體、斜體、刪除線
   bb = bb.replace(/\*\*(.*?)\*\*/gim, '[b]$1[/b]');
@@ -239,7 +239,7 @@ function clearInput() {
 
 | Markdown               | BBCode（轉換結果）                   | 備註                                     |
 |------------------------|---------------------------------------|------------------------------------------|
-| `# 標題`               | `[size=6][b]標題[/b][/size]`          | 用來模擬大標題                           |
+| `# 標題`               | `[size=5][b]標題[/b][/size]`          | 用來模擬大標題                           |
 | `**粗體**`             | `[b]粗體[/b]`                         |                                          |
 | `*斜體*`               | `[i]斜體[/i]`                         |                                          |
 | `~~刪除線~~`           | `[s]刪除線[/s]`                       |                                          |
