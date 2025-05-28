@@ -23,9 +23,9 @@ canonical_url: https://arlenfuture.github.io/tools/
   <p>將 Markdown 語法即時轉換為巴哈姆特 BBCode，適合心得文、遊戲介紹、角色發表。</p>
 </a>
 
-<a class="tool-card" href="/tools/ran2-badge-cropper/">
-  <h3>亂2 Online 盟徽裁切器</h3>
-  <p>為《亂2 Online》製作固定 16x11 的盟徽圖片，支援比例裁切與縮放演算法選擇。</p>
+<a class="tool-card" href="/tools/ran2-badge-maker/">
+  <h3>亂2 Online 盟徽 製作工具</h3>
+  <p>為 亂2 Online 製作 16x11 的盟徽（Badge）圖片，支援圖片上傳編輯或空白畫布繪圖，輸出 BMP 格式。</p>
 </a>
 
 <!-- 預留空間，未來擴充用 -->
