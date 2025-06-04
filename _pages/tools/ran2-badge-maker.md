@@ -119,6 +119,15 @@ button {
     background-color: #1e7e34;
 }
 
+.eyedropper-active {
+    background-color: #ffc107 !important;
+    color: #000 !important;
+}
+
+#editCanvas.eyedropper-mode {
+    cursor: crosshair;
+}
+
 input[type="file"] {
     margin: 10px 0;
 }
@@ -185,6 +194,9 @@ input[type="file"] {
             <input type="range" id="brushSize" min="1" max="3" value="1">
             <span id="brushSizeDisplay">1</span>
         </div>
+        <div class="tool-group">
+            <button class="btn-secondary" id="eyedropperBtn" onclick="toggleEyedropper()">🎨 取色器</button>
+        </div>
         <button class="btn-secondary" onclick="clearCanvas()">🧹 清除畫布</button>
         <button class="btn-secondary" onclick="resetCanvas()">🔄 重置</button>
     </div>
@@ -216,6 +228,7 @@ let originalImageData = null;
 let sourceCanvas, sourceCtx, cropArea, previewImage, scaleType;
 let isDragging = false;
 let dragOffsetX, dragOffsetY;
+let isEyedropperMode = false;
 
 // 初始化
 document.addEventListener('DOMContentLoaded', function() {
@@ -342,7 +355,13 @@ function startEditing() {
 // 設置畫布繪圖事件
 function setupCanvasEvents() {
     // 滑鼠事件
-    editCanvas.addEventListener('mousedown', startDrawing);
+    editCanvas.addEventListener('mousedown', function(e) {
+    if (isEyedropperMode) {
+        pickColor(e);
+        } else {
+            startDrawing(e);
+        }
+    });
     editCanvas.addEventListener('mousemove', draw);
     editCanvas.addEventListener('mouseup', stopDrawing);
     editCanvas.addEventListener('mouseout', stopDrawing);
@@ -600,5 +619,44 @@ function bicubicKernel(x) {
     if (x <= 1) return (1.5 * x - 2.5) * x * x + 1;
     if (x < 2) return ((-0.5 * x + 2.5) * x - 4) * x + 2;
     return 0;
+}
+
+// 切換取色器模式
+function toggleEyedropper() {
+    isEyedropperMode = !isEyedropperMode;
+    const btn = document.getElementById('eyedropperBtn');
+    
+    if (isEyedropperMode) {
+        btn.classList.add('eyedropper-active');
+        btn.textContent = '🎨 取色中...';
+        editCanvas.classList.add('eyedropper-mode');
+    } else {
+        btn.classList.remove('eyedropper-active');
+        btn.textContent = '🎨 取色器';
+        editCanvas.classList.remove('eyedropper-mode');
+    }
+}
+
+// 取色功能
+function pickColor(e) {
+    const rect = editCanvas.getBoundingClientRect();
+    const scaleX = editCanvas.width / rect.width;
+    const scaleY = editCanvas.height / rect.height;
+    
+    const x = Math.floor((e.clientX - rect.left) * scaleX);
+    const y = Math.floor((e.clientY - rect.top) * scaleY);
+    
+    // 獲取該像素的顏色
+    const imageData = editCtx.getImageData(x, y, 1, 1);
+    const [r, g, b] = imageData.data;
+    
+    // 轉換為十六進制顏色
+    const hexColor = `#${((1 << 24) + (r << 16) + (g << 8) + b).toString(16).slice(1)}`;
+    
+    // 設置顏色選擇器的值
+    document.getElementById('colorPicker').value = hexColor;
+    
+    // 自動退出取色器模式
+    toggleEyedropper();
 }
 </script>
