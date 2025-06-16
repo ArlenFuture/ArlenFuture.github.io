@@ -54,6 +54,18 @@ if (typeof JSZip === 'undefined') {
     throw new Error('JSZip library failed to load');
 }
 
+// 監聽檔案選擇變化，清除之前的結果
+document.getElementById('fileInput').addEventListener('change', () => {
+    const output = document.getElementById('output');
+    const progressBar = document.getElementById('progressBar');
+    
+    // 清除之前的下載連結和進度
+    output.innerHTML = '';
+    progressBar.style.width = '0%';
+    progressBar.textContent = '0%';
+    progressBar.style.backgroundColor = '#76c7c0'; // 重置進度條顏色
+});
+
 document.getElementById('convertBtn').addEventListener('click', async () => {
     const files = document.getElementById('fileInput').files;
     if (files.length === 0) {
@@ -118,9 +130,15 @@ document.getElementById('convertBtn').addEventListener('click', async () => {
 
         // 生成 ZIP 並下載
         const zipBlob = await zip.generateAsync({ type: 'blob' });
+        
+        // 產生台灣時間戳記 (UTC+8)
+        const now = new Date();
+        const taiwanTime = new Date(now.getTime() + (8 * 60 * 60 * 1000));
+        const timestamp = taiwanTime.toISOString().slice(0,19).replace(/:/g,'-');
+        
         const zipLink = document.createElement('a');
         zipLink.href = URL.createObjectURL(zipBlob);
-        zipLink.download = `webp_files_${new Date().toISOString().slice(0,19).replace(/:/g,'-')}.zip`;
+        zipLink.download = `webp_files_${timestamp}.zip`;
         zipLink.textContent = '點此下載 ZIP 檔案';
         zipLink.style.cssText = 'display: inline-block; padding: 10px 20px; background: #76c7c0; color: white; text-decoration: none; border-radius: 5px; margin-top: 10px;';
         output.appendChild(zipLink);
