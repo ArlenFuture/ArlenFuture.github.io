@@ -406,7 +406,7 @@ excerpt: 亂2 Online 任務進度追蹤清單，支援多角色進度、匯入�
 <div class="quest-container">
 <ul class="quest-list">
   <li><input type="checkbox" data-id="q99">【劇情】發現青基地</li>
-  <li><input type="checkbox" data-id="q100">【劇情】青基地的主事者（技能點數+1、NPC：青基地A區3F－青基地角頭）</li>
+  <li><input type="checkbox" data-id="q100">【劇情】青基地的主事者（NPC：青基地A區3F－青基地角頭）</li>
   <li><input type="checkbox" data-id="q101">【劇情】來自青基地的援助（技能點數+1、NPC：陽光男孩）</li>
 </ul>
 </div>
