@@ -105,6 +105,7 @@ excerpt: 亂2 Online 任務進度追蹤清單，支援多角色進度、匯入�
 <div class="quest-container">
 <ul class="quest-list">
   <li><input type="checkbox" data-id="q17">【劇情】打倒冰凍可魯（技能點數+1）</li>
+  <blockquote>上面這個任務依據學院不同會有所不同，鳳凰是淨化廢車場。</blockquote>
   <li><input type="checkbox" data-id="q18">【劇情】掃除炸彈（技能點數+1）</li>
   <li><input type="checkbox" data-id="q19">【劇情】淨化公園（技能點數+1）</li>
   <li><input type="checkbox" data-id="q20">【劇情】物理老師的考試</li>
