@@ -67,12 +67,10 @@ excerpt: 亂2 Online 任務進度追蹤清單，支援多角色進度、匯入�
   <li><input type="checkbox" data-id="q4">【劇情】結界認證（技能點數+2）</li>
   <li><input type="checkbox" data-id="q5">【劇情】準備通過正門</li>
   <li><input type="checkbox" data-id="q6">【劇情】突如其來的研究論文</li>
-  <li><input type="checkbox" data-id="q7">【劇情】異像調查</li>
+  <li><input type="checkbox" data-id="q7">【劇情】異象調查</li>
   <li><input type="checkbox" data-id="q8">【劇情】定期測驗（聖門本館主任 能力點數+2）</li>
   <li><label>以下三校任務名稱不同</label></li>
-  <li><input type="checkbox" data-id="q9">【劇情】戰爭的召喚（聖門本館主任 能力點數+2）</li>
-  <li><input type="checkbox" data-id="q10">【劇情】自我防衛（鳳凰本館主任 能力點數+2）</li>
-  <li><input type="checkbox" data-id="q11">【劇情】守護學院（玄嚴本館主任 能力點數+2）</li>
+  <li><input type="checkbox" data-id="q9">【劇情】戰爭的召喚(聖門)|【劇情】自我防衛(鳳凰)|【劇情】守護學院(玄嚴)（各校本館主任 能力點數+2）</li>
 </ul>
 </div>
 
@@ -104,8 +102,8 @@ excerpt: 亂2 Online 任務進度追蹤清單，支援多角色進度、匯入�
 <h4>NPC: 物理老師</h4>
 <div class="quest-container">
 <ul class="quest-list">
-  <li><input type="checkbox" data-id="q17">【劇情】打倒冰凍可魯（技能點數+1）</li>
-  <blockquote>上面這個任務依據學院不同會有所不同，鳳凰是淨化廢車場。</blockquote>
+  <li><label>以下三校任務名稱不同，玄嚴玩家有空再跟我回報任務名稱</label></li>
+  <li><input type="checkbox" data-id="q17">【劇情】打倒冰凍可魯(聖門)|【劇情】淨化廢車場(鳳凰)|【劇情】???(玄嚴)（技能點數+1）</li>
   <li><input type="checkbox" data-id="q18">【劇情】掃除炸彈（技能點數+1）</li>
   <li><input type="checkbox" data-id="q19">【劇情】淨化公園（技能點數+1）</li>
   <li><input type="checkbox" data-id="q20">【劇情】物理老師的考試</li>
@@ -245,7 +243,7 @@ excerpt: 亂2 Online 任務進度追蹤清單，支援多角色進度、匯入�
 <h4>NPC: 護士</h4>
 <div class="quest-container">
 <ul class="quest-list">
-  <li><input type="checkbox" data-id="q68">【劇情】找尋遺物任務（技能點數+2）</li>
+  <li><input type="checkbox" data-id="q68">【劇情】找尋遺物（技能點數+2）</li>
   <li><input type="checkbox" data-id="q69">【劇情】死亡領域（技能點數+4）</li>
   <li><input type="checkbox" data-id="q70">【劇情】尋找背包鑰匙（獎勵:時空斑指[+6]、新手神裝別賣）</li>
 </ul>
@@ -339,7 +337,7 @@ excerpt: 亂2 Online 任務進度追蹤清單，支援多角色進度、匯入�
 <ul class="quest-list">
   <li><input type="checkbox" data-id="q88">【劇情】蟲之血</li>
   <li><input type="checkbox" data-id="q89">【劇情】亡羊補牢（技能點數+2、NPC：B2－研究生）</li>
-  <li><input type="checkbox" data-id="q90">【劇情】暴動的學生（前置：異像調查、NPC：本館－老師）</li>
+  <li><input type="checkbox" data-id="q90">【劇情】暴動的學生（前置：異象調查、NPC：本館－老師）</li>
   <li><input type="checkbox" data-id="q91">【劇情】暴動的真相（NPC：本館－老師）</li>
   <li><input type="checkbox" data-id="q92">【劇情】瘋狂的開端（技能點數+3、NPC：本館－老師）</li>
 </ul>
@@ -355,7 +353,7 @@ excerpt: 亂2 Online 任務進度追蹤清單，支援多角色進度、匯入�
 <h4>NPC: 轉學生</h4>
 <div class="quest-container"> 
 <ul class="quest-list">
-  <li><input type="checkbox" data-id="q93">【劇情】成績單（技能點數+2，前置：異像調查）</li>
+  <li><input type="checkbox" data-id="q93">【劇情】成績單（技能點數+2，前置：異象調查）</li>
 </ul>
 </div>
 
