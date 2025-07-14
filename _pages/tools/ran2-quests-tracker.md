@@ -103,7 +103,7 @@ excerpt: 亂2 Online 任務進度追蹤清單，支援多角色進度、匯入�
 <div class="quest-container">
 <ul class="quest-list">
   <li><label>以下三校任務名稱不同，玄嚴玩家有空再跟我回報任務名稱</label></li>
-  <li><input type="checkbox" data-id="q17">【劇情】打倒冰凍可魯(聖門)|【劇情】淨化廢車場(鳳凰)|【劇情】???(玄嚴)（技能點數+1）</li>
+  <li><input type="checkbox" data-id="q17">【劇情】打倒冰凍可魯(聖門)|【劇情】淨化廢車場(鳳凰)|【劇情】掃除剪刀手(玄嚴)（技能點數+1）</li>
   <li><input type="checkbox" data-id="q18">【劇情】掃除炸彈（技能點數+1）</li>
   <li><input type="checkbox" data-id="q19">【劇情】淨化公園（技能點數+1）</li>
   <li><input type="checkbox" data-id="q20">【劇情】物理老師的考試</li>
