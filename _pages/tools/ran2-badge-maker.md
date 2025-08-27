@@ -435,26 +435,65 @@ function resetCanvas() {
     }
 }
 
-// 下載 BMP 檔案
+// 下載 24-bit BMP（跨瀏覽器固定）
 function downloadBMP() {
-    // 創建一個臨時畫布來獲取圖片數據
-    const tempCanvas = document.createElement('canvas');
-    tempCanvas.width = 16;
-    tempCanvas.height = 11;
-    const tempCtx = tempCanvas.getContext('2d');
-    tempCtx.imageSmoothingEnabled = false;
-    
-    // 複製當前畫布內容
-    tempCtx.drawImage(editCanvas, 0, 0);
-    
-    // 轉換為 Blob 並下載
-    tempCanvas.toBlob(function(blob) {
-        const link = document.createElement('a');
-        link.download = 'ran2_badge_16x11.bmp';
-        link.href = URL.createObjectURL(blob);
-        link.click();
-        URL.revokeObjectURL(link.href);
-    }, 'image/bmp');
+    const canvas = editCanvas;
+    const width = canvas.width;
+    const height = canvas.height;
+    const ctx = canvas.getContext("2d");
+    const imageData = ctx.getImageData(0, 0, width, height);
+    const pixels = imageData.data;
+
+    // 每行必須是 4 bytes 對齊 (BMP 規定)
+    const rowSize = Math.floor((24 * width + 31) / 32) * 4;
+    const pixelArraySize = rowSize * height;
+    const fileSize = 54 + pixelArraySize;
+
+    const buffer = new ArrayBuffer(fileSize);
+    const dv = new DataView(buffer);
+
+    let p = 0;
+    // BMP Header
+    dv.setUint8(p++, 0x42); // 'B'
+    dv.setUint8(p++, 0x4D); // 'M'
+    dv.setUint32(p, fileSize, true); p += 4;
+    dv.setUint16(p, 0, true); p += 2; // reserved1
+    dv.setUint16(p, 0, true); p += 2; // reserved2
+    dv.setUint32(p, 54, true); p += 4; // offset to pixel data
+
+    // DIB Header (BITMAPINFOHEADER)
+    dv.setUint32(p, 40, true); p += 4; // header size
+    dv.setInt32(p, width, true); p += 4;
+    dv.setInt32(p, -height, true); p += 4; // 負數 = top-down bitmap
+    dv.setUint16(p, 1, true); p += 2; // planes
+    dv.setUint16(p, 24, true); p += 2; // bits per pixel
+    dv.setUint32(p, 0, true); p += 4; // compression (none)
+    dv.setUint32(p, pixelArraySize, true); p += 4;
+    dv.setInt32(p, 2835, true); p += 4; // X ppm (72 DPI)
+    dv.setInt32(p, 2835, true); p += 4; // Y ppm
+    dv.setUint32(p, 0, true); p += 4; // colors in palette
+    dv.setUint32(p, 0, true); p += 4; // important colors
+
+    // Pixel Data (BGR, no alpha, padded)
+    let offset = 54;
+    const padding = rowSize - width * 3;
+
+    for (let y = 0; y < height; y++) {
+        for (let x = 0; x < width; x++) {
+            const i = (y * width + x) * 4;
+            dv.setUint8(offset++, pixels[i + 2]); // B
+            dv.setUint8(offset++, pixels[i + 1]); // G
+            dv.setUint8(offset++, pixels[i]);     // R
+        }
+        offset += padding;
+    }
+
+    // 建立下載
+    const blob = new Blob([buffer], { type: "image/bmp" });
+    const link = document.createElement("a");
+    link.href = URL.createObjectURL(blob);
+    link.download = "ran2_badge_16x11.bmp";
+    link.click();
 }
 
 // 設置裁切功能事件
