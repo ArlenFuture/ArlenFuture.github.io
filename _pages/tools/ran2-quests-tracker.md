@@ -66,7 +66,7 @@ excerpt: 亂2 Online 任務進度追蹤清單，支援多角色進度、匯入�
   <li><input type="checkbox" data-id="q3">【劇情】學生主任的測驗（技能點數+2）</li>
   <li><input type="checkbox" data-id="q4">【劇情】結界認證（技能點數+2）</li>
   <li><input type="checkbox" data-id="q5">【劇情】準備通過正門</li>
-  <li><input type="checkbox" data-id="q6">【劇情】突如其來的研究論文</li>
+  <li><input type="checkbox" data-id="q6">【劇情】突如其來的研究論文（大於或等於190）</li>
   <li><input type="checkbox" data-id="q7">【劇情】異象調查</li>
   <li><input type="checkbox" data-id="q8">【劇情】定期測驗（聖門本館主任 能力點數+2）</li>
   <li><label>以下三校任務名稱不同</label></li>
@@ -100,6 +100,7 @@ excerpt: 亂2 Online 任務進度追蹤清單，支援多角色進度、匯入�
 </div>
 
 <h4>NPC: 物理老師</h4>
+<blockquote>掃除炸彈、淨化公園 固定在聖門洞物理老師，其於任務在各學院洞對應的物理老師接取。</blockquote>
 <div class="quest-container">
 <ul class="quest-list">
   <li><label>以下三校任務名稱不同，玄嚴玩家有空再跟我回報任務名稱</label></li>
