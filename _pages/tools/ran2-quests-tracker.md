@@ -15,6 +15,22 @@ excerpt: 亂2 Online 任務進度追蹤清單，支援多角色進度、匯入�
 
 > 請優先查看公車司機、虎令、監獄及人人任務的提示，這幾個任務有BUG、限制等級或戰力條件。
 
+## ⚠️ 新大阪斷線 & 寵物異常提醒
+> 最近新大阪伺服器有全服斷線和寵物無法呼叫的事件，官方甚至在消保會回覆中否認問題。  
+> 如果你在遊戲中有遇到 **斷線、寵物異常或付費道具損失**，建議 **到消保會申訴** 保護自己的權益。  
+> 詳細事件說明與申訴方式 → 
+<div style="margin:20px 0; text-align:center;">
+  <h3>⚠️ 新大阪斷線 & 寵物異常追蹤</h3>
+  <iframe width="560" height="315" 
+          src="https://www.youtube.com/watch?v=UNY2egRrwNk" 
+          title="新大阪斷線事件追蹤" 
+          frameborder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+          allowfullscreen>
+  </iframe>
+  <p>如果你在遊戲中有遇到斷線或寵物異常，建議到消保會申訴保護自己的權益！</p>
+</div>
+
 ## 參考資料
 - [巴哈姆特 不要有名字(gc10726) 攻略文章及 PDF](https://forum.gamer.com.tw/C.php?bsn=5270&snA=85329)
 
