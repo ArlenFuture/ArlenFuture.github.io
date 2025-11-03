@@ -80,11 +80,11 @@ excerpt: 亂2 Online 任務進度追蹤清單，支援多角色進度、匯入�
   <li><input type="checkbox" data-id="q3">【劇情】學生主任的測驗（技能點數+2）</li>
   <li><input type="checkbox" data-id="q4">【劇情】結界認證（技能點數+2）</li>
   <li><input type="checkbox" data-id="q5">【劇情】準備通過正門</li>
-  <li><input type="checkbox" data-id="q6">【劇情】突如其來的研究論文（大於或等於190）</li>
-  <li><input type="checkbox" data-id="q7">【劇情】異象調查</li>
-  <li><input type="checkbox" data-id="q8">【劇情】定期測驗（聖門本館主任 能力點數+2）</li>
+  <li><input type="checkbox" data-id="q6">【劇情】突如其來的研究論文（190等）</li>
+  <li><input type="checkbox" data-id="q7">【劇情】異象調查(150等)</li>
+  <li><input type="checkbox" data-id="q8">【劇情】定期測驗（聖門本館主任、165等、能力點數+2）</li>
   <li><label>以下三校任務名稱不同</label></li>
-  <li><input type="checkbox" data-id="q9">【劇情】戰爭的召喚(聖門)|【劇情】自我防衛(鳳凰)|【劇情】守護學院(玄嚴)（各校本館主任 能力點數+2）</li>
+  <li><input type="checkbox" data-id="q9">【劇情】戰爭的召喚(聖門)|【劇情】自我防衛(鳳凰)|【劇情】守護學院(玄嚴)（175等、各校本館主任、能力點數+2）</li>
 </ul>
 </div>
 
@@ -99,17 +99,17 @@ excerpt: 亂2 Online 任務進度追蹤清單，支援多角色進度、匯入�
 <blockquote>非常重要！一出校門請從公車司機一路解上去，千萬不要途中去跟物理老師對話！否則會無法接取物理老師的呼叫任務！</blockquote>
 <div class="quest-container">
 <ul class="quest-list">
-  <li><input type="checkbox" data-id="q12">【劇情】公車司機的請求(1)</li>
-  <li><input type="checkbox" data-id="q13">【劇情】公車司機的請求(2)</li>
-  <li><input type="checkbox" data-id="q14">【劇情】作業班長的請求</li>
-  <li><input type="checkbox" data-id="q15">【劇情】物理老師的呼叫（技能點數+1）</li>
+  <li><input type="checkbox" data-id="q12">【劇情】公車司機的請求(1)(26等)</li>
+  <li><input type="checkbox" data-id="q13">【劇情】公車司機的請求(2)(33等)</li>
+  <li><input type="checkbox" data-id="q14">【劇情】作業班長的請求(33等)</li>
+  <li><input type="checkbox" data-id="q15">【劇情】物理老師的呼叫(39等)（技能點數+1）</li>
 </ul>
 </div>
 
 <h4>NPC: 技術老師</h4>
 <div class="quest-container">
 <ul class="quest-list">
-  <li><input type="checkbox" data-id="q16">【劇情】技術老師的測驗（技能點數+1）</li>
+  <li><input type="checkbox" data-id="q16">【劇情】技術老師的測驗（46等、技能點數+1）</li>
   </ul>
 </div>
 
@@ -118,13 +118,13 @@ excerpt: 亂2 Online 任務進度追蹤清單，支援多角色進度、匯入�
 <div class="quest-container">
 <ul class="quest-list">
   <li><label>以下三校任務名稱不同，玄嚴玩家有空再跟我回報任務名稱</label></li>
-  <li><input type="checkbox" data-id="q17">【劇情】打倒冰凍可魯(聖門)|【劇情】淨化廢車場(鳳凰)|【劇情】掃除剪刀手(玄嚴)（技能點數+1）</li>
-  <li><input type="checkbox" data-id="q18">【劇情】掃除炸彈（技能點數+1）</li>
-  <li><input type="checkbox" data-id="q19">【劇情】淨化公園（技能點數+1）</li>
-  <li><input type="checkbox" data-id="q20">【劇情】物理老師的考試</li>
-  <li><input type="checkbox" data-id="q21">【劇情】紙幣認證（技能點數+1）</li>
-  <li><input type="checkbox" data-id="q22">【劇情】發布命令書（技能點數+1）</li>
-  <li><input type="checkbox" data-id="q23">【劇情】回收地圖（技能點數+1）</li>
+  <li><input type="checkbox" data-id="q17">【劇情】打倒冰凍可魯(聖門)|【劇情】淨化廢車場(鳳凰)|【劇情】掃除剪刀手(玄嚴)（52等、技能點數+1）</li>
+  <li><input type="checkbox" data-id="q18">【劇情】掃除炸彈（62等、技能點數+1）</li>
+  <li><input type="checkbox" data-id="q19">【劇情】淨化公園（66等、技能點數+1）</li>
+  <li><input type="checkbox" data-id="q20">【劇情】物理老師的考試（39等）</li>
+  <li><input type="checkbox" data-id="q21">【劇情】紙幣認證（39等、技能點數+1）</li>
+  <li><input type="checkbox" data-id="q22">【劇情】發布命令書（39等、技能點數+1）</li>
+  <li><input type="checkbox" data-id="q23">【劇情】回收地圖（39等、技能點數+1）</li>
   </ul>
 </div>
 
@@ -134,8 +134,8 @@ excerpt: 亂2 Online 任務進度追蹤清單，支援多角色進度、匯入�
 <ul class="quest-list">
   <li><input type="checkbox" data-id="q24">【劇情】獲得特殊ID卡（技能點數+1）</li>
   <li><input type="checkbox" data-id="q25">【劇情】前往虎令學院地下2樓 (可不接)</li>
-  <li><input type="checkbox" data-id="q26">【劇情】特遣人員的測驗</li>
-  <li><input type="checkbox" data-id="q27">【劇情】特遣人員的請求（技能點數+1）</li>
+  <li><input type="checkbox" data-id="q26">【劇情】特遣人員的測驗(63等)</li>
+  <li><input type="checkbox" data-id="q27">【劇情】特遣人員的請求(64等)（技能點數+1）</li>
 </ul>
 </div>
 
@@ -150,35 +150,35 @@ excerpt: 亂2 Online 任務進度追蹤清單，支援多角色進度、匯入�
 <h4>NPC: 警察</h4>
 <div class="quest-container">
 <ul class="quest-list">
-  <li><input type="checkbox" data-id="q28">【劇情】警察的委託（技能點數+1）</li>
-  <li><input type="checkbox" data-id="q29">【劇情】調查實驗體（能力點數+1）</li>
+  <li><input type="checkbox" data-id="q28">【劇情】警察的委託（78等、技能點數+1）</li>
+  <li><input type="checkbox" data-id="q29">【劇情】調查實驗體（78等、能力點數+1）</li>
   </ul>
 </div>
 
 <h4>NPC: 清潔工人</h4>
 <div class="quest-container">
 <ul class="quest-list">
-  <li><input type="checkbox" data-id="q30">【劇情】鮮紅色的影子（技能點數+3，前置:深牢之怨）</li>
-  <li><input type="checkbox" data-id="q31">【劇情】請求支援（技能點數+5）</li>
-  <li><input type="checkbox" data-id="q32">【劇情】伏擊（技能點數+3，中洞 NPC: 典獄官）</li>
+  <li><input type="checkbox" data-id="q30">【劇情】鮮紅色的影子（194等、技能點數+3，前置:深牢之怨）</li>
+  <li><input type="checkbox" data-id="q31">【劇情】請求支援（技能點數+5，前置:鮮紅色的影子的信件觸發）</li>
+  <li><input type="checkbox" data-id="q32">【劇情】伏擊（184等、技能點數+3，中洞 NPC: 典獄官、前置:請求支援）</li>
 </ul>
 </div>
 
 <h4>NPC: 學院聯合戰隊隊長－亞恩</h4>
 <div class="quest-container">
 <ul class="quest-list">
-  <li><input type="checkbox" data-id="q33">【劇情】深入死牢（能力點數+1，前置：斯利普議會長－議會的委託）</li>
+  <li><input type="checkbox" data-id="q33">【劇情】深入死牢（180等、能力點數+1，前置：斯利普議會長－議會的委託）</li>
   <li><input type="checkbox" data-id="q34">【劇情】實力的證明（火炎地獄鑰匙）</li>
-  <li><input type="checkbox" data-id="q35">【劇情】更難突破的要塞 (火炎副本每日任務的前置) </li>
+  <li><input type="checkbox" data-id="q35">【劇情】更難突破的要塞 (180等、火炎副本每日任務的前置) </li>
 </ul>
 </div>
 
 <h4>NPC: 藍洛</h4>
 <div class="quest-container">
 <ul class="quest-list">
-  <li><input type="checkbox" data-id="q36">【劇情】墮星之光（技能點數+10、能力點數+20）</li>
-  <li><input type="checkbox" data-id="q37">【劇情】深淵的序曲（20 萬亂幣接取，前置：本洞 - 警察-謎樣的探險家）</li>
-  <li><input type="checkbox" data-id="q38">【劇情】激戰前的測試（技能點數+7、綜合修練院-NPC:斯利普議會長）</li>
+  <li><input type="checkbox" data-id="q36">【劇情】墮星之光（187等、技能點數+10、能力點數+20）</li>
+  <li><input type="checkbox" data-id="q37">【劇情】深淵的序曲（165等、20 萬亂幣接取，前置：本洞 - 警察-謎樣的探險家）</li>
+  <li><input type="checkbox" data-id="q38">【劇情】激戰前的測試（167等、技能點數+7、前置：綜合修練院-NPC:斯利普議會長 - 深淵的序曲）</li>
 </ul>
 </div>
 
@@ -189,8 +189,8 @@ excerpt: 亂2 Online 任務進度追蹤清單，支援多角色進度、匯入�
   <li><input type="checkbox" data-id="q40">【劇情】寒冰霸主的密令（能力點數+2）</li>
   <li><input type="checkbox" data-id="q41">【劇情】機械交響曲（能力點數+3）</li>
   <li><input type="checkbox" data-id="q42">【劇情】愛情解毒劑（能力點數+3）</li>
-  <li><input type="checkbox" data-id="q43">【劇情】破壞之力（技能點數+8）</li>
-  <li><input type="checkbox" data-id="q44">【劇情】預言家（技能點數+1，前置：激戰前的測試）</li>
+  <li><input type="checkbox" data-id="q43">【劇情】破壞之力（187等、技能點數+8）</li>
+  <li><input type="checkbox" data-id="q44">【劇情】預言家（172等、技能點數+1，前置：激戰前的測試）</li>
   <li><input type="checkbox" data-id="q45">【劇情】古老的詛咒（技能點數+2，前置：預言家）</li>
 </ul>
 </div>
@@ -213,38 +213,38 @@ excerpt: 亂2 Online 任務進度追蹤清單，支援多角色進度、匯入�
 <h4>NPC: 卡車司機</h4>
 <div class="quest-container">
 <ul class="quest-list">
-  <li><input type="checkbox" data-id="q48">【劇情】回收卡車鑰匙</li>
-  <li><input type="checkbox" data-id="q49">【劇情】汽油回收 </li>
-  <li><input type="checkbox" data-id="q50">【劇情】去見老人（技能點數+3）</li>
+  <li><input type="checkbox" data-id="q48">【劇情】回收卡車鑰匙(112等)</li>
+  <li><input type="checkbox" data-id="q49">【劇情】汽油回收(前置：回收卡車鑰匙) </li>
+  <li><input type="checkbox" data-id="q50">【劇情】去見老人（前置：汽油回收、技能點數+3）</li>
 </ul>
 </div>
 
 <h4>NPC: 可疑的老人</h4>
 <div class="quest-container">
 <ul class="quest-list">
-  <li><input type="checkbox" data-id="q51">【劇情】老頭的禮物</li>
+  <li><input type="checkbox" data-id="q51">【劇情】老頭的禮物(155等)</li>
   <li><input type="checkbox" data-id="q52">【劇情】尋找文書</li>
-  <li><input type="checkbox" data-id="q53">【劇情】確認淨水場水質</li>
-  <li><input type="checkbox" data-id="q54">【劇情】修理發電機</li>
-  <li><input type="checkbox" data-id="q55">【劇情】拿到青之秘密據點的帶子</li>
-  <li><input type="checkbox" data-id="q56">【劇情】青之秘密據點帶子修復（技能點數+3）</li>
+  <li><input type="checkbox" data-id="q53">【劇情】確認淨水場水質(前置：去見老人)</li>
+  <li><input type="checkbox" data-id="q54">【劇情】修理發電機(前置：確認淨水場水質)</li>
+  <li><input type="checkbox" data-id="q55">【劇情】拿到青之秘密據點的帶子(前置：修理發電機)</li>
+  <li><input type="checkbox" data-id="q56">【劇情】青之秘密據點帶子修復（前置：拿到青之秘密據點的帶子、技能點數+3）</li>
 </ul>
 </div>
 
 <h4>NPC: 碼頭警察Ａ</h4>
 <div class="quest-container">
 <ul class="quest-list">
-  <li><input type="checkbox" data-id="q57">【劇情】確認走私品</li>
-  <li><input type="checkbox" data-id="q58">【劇情】逮捕走私犯</li>
-  <li><input type="checkbox" data-id="q59">【劇情】調查建築物</li>
-  <li><input type="checkbox" data-id="q60">【劇情】侵入「青」的秘密據點 </li>
-  <li><input type="checkbox" data-id="q61">【劇情】搜索「青」的秘密據點 </li>
-  <li><input type="checkbox" data-id="q62">【劇情】搜索「青」的秘密據點2樓</li>
-  <li><input type="checkbox" data-id="q63">【劇情】搜索「青」的秘密據點3樓</li>
-  <li><input type="checkbox" data-id="q64">【劇情】交回證據</li>
-  <li><input type="checkbox" data-id="q65">【劇情】第一次考試（技能點數+2、能力點數+1、NPC：商洞－洪美蘭）</li>
-  <li><input type="checkbox" data-id="q66">【劇情】第二次考試（技能點數+2、打冰凍小丑）</li>
-  <li><input type="checkbox" data-id="q67">【劇情】第三次考試（獎勵:空間念珠[+7]、新手神裝別賣）</li>
+  <li><input type="checkbox" data-id="q57">【劇情】確認走私品(117等)</li>
+  <li><input type="checkbox" data-id="q58">【劇情】逮捕走私犯(前置：確認走私品)</li>
+  <li><input type="checkbox" data-id="q59">【劇情】調查建築物(前置：逮捕走私犯)</li>
+  <li><input type="checkbox" data-id="q60">【劇情】侵入「青」的秘密據點(前置：調查建築物) </li>
+  <li><input type="checkbox" data-id="q61">【劇情】搜索「青」的秘密據點(120等、前置：侵入「青」的秘密據點)</li>
+  <li><input type="checkbox" data-id="q62">【劇情】搜索「青」的秘密據點2樓(125等、前置：搜索「青」的秘密據點)</li>
+  <li><input type="checkbox" data-id="q63">【劇情】搜索「青」的秘密據點3樓(132等、前置：搜索「青」的秘密據點2樓)</li>
+  <li><input type="checkbox" data-id="q64">【劇情】交回證據(前置：搜索「青」的秘密據點3樓)</li>
+  <li><input type="checkbox" data-id="q65">【劇情】第一次考試（前置：交回證據、技能點數+2、能力點數+1、NPC：商洞－洪美蘭）</li>
+  <li><input type="checkbox" data-id="q66">【劇情】第二次考試（前置：第一次考試、技能點數+2、打冰凍小丑）</li>
+  <li><input type="checkbox" data-id="q67">【劇情】第三次考試（前置：第二次考試、獎勵:空間念珠[+7]、新手神裝別賣）</li>
 </ul>
 </div>
 
@@ -258,9 +258,9 @@ excerpt: 亂2 Online 任務進度追蹤清單，支援多角色進度、匯入�
 <h4>NPC: 護士</h4>
 <div class="quest-container">
 <ul class="quest-list">
-  <li><input type="checkbox" data-id="q68">【劇情】找尋遺物（技能點數+2）</li>
-  <li><input type="checkbox" data-id="q69">【劇情】死亡領域（技能點數+4）</li>
-  <li><input type="checkbox" data-id="q70">【劇情】尋找背包鑰匙（獎勵:時空斑指[+6]、新手神裝別賣）</li>
+  <li><input type="checkbox" data-id="q68">【劇情】找尋遺物（152等、技能點數+2）</li>
+  <li><input type="checkbox" data-id="q69">【劇情】死亡領域（153等、技能點數+4）</li>
+  <li><input type="checkbox" data-id="q70">【劇情】尋找背包鑰匙（145等、獎勵:時空斑指[+6]、新手神裝別賣）</li>
 </ul>
 </div>
 
@@ -275,9 +275,9 @@ excerpt: 亂2 Online 任務進度追蹤清單，支援多角色進度、匯入�
 <h4>NPC: 監獄警察</h4>
 <div class="quest-container">
 <ul class="quest-list">
-  <li><input type="checkbox" data-id="q71">【劇情】確認信紙（技能點數+2）</li>
-  <li><input type="checkbox" data-id="q72">【劇情】搜集珠子（技能點數+5）</li>
-  <li><input type="checkbox" data-id="q73">【劇情】找尋嫌犯（能力點數+1，容易漏掉，監獄警察A 座標:51/105）</li>
+  <li><input type="checkbox" data-id="q71">【劇情】確認信紙（148等、技能點數+2）</li>
+  <li><input type="checkbox" data-id="q72">【劇情】搜集珠子（144等、技能點數+5）</li>
+  <li><input type="checkbox" data-id="q73">【劇情】找尋嫌犯（145等、能力點數+1，容易漏掉，監獄警察A 座標:51/105）</li>
 </ul>
 </div>
 
@@ -291,8 +291,8 @@ excerpt: 亂2 Online 任務進度追蹤清單，支援多角色進度、匯入�
 <h4>NPC: 警察</h4>
 <div class="quest-container">
 <ul class="quest-list">
-  <li><input type="checkbox" data-id="q74">【劇情】謎樣的探險家</li>
-  <li><input type="checkbox" data-id="q75">【劇情】未知的動亂</li>
+  <li><input type="checkbox" data-id="q74">【劇情】謎樣的探險家(165等)</li>
+  <li><input type="checkbox" data-id="q75">【劇情】未知的動亂(165等)</li>
 </ul>
 </div>
 
@@ -300,18 +300,18 @@ excerpt: 亂2 Online 任務進度追蹤清單，支援多角色進度、匯入�
 <blockquote>製作特殊戒指的獎勵，別丟商店，撐力量終身裝，賣了無法補救。</blockquote>
 <div class="quest-container">
 <ul class="quest-list">
-  <li><input type="checkbox" data-id="q76">【劇情】拾回舊書（技能點數+3）</li>
-  <li><input type="checkbox" data-id="q77">【劇情】測試執行能力（能力點數+6）</li>
-  <li><input type="checkbox" data-id="q78">【劇情】測試執行能力(2)（能力點數+9）</li>
-  <li><input type="checkbox" data-id="q79">【劇情】測試執行能力(3)（能力點數+12）</li>
-  <li><input type="checkbox" data-id="q80">【劇情】製作特殊戒指</li>
+  <li><input type="checkbox" data-id="q76">【劇情】拾回舊書（162等、技能點數+3）</li>
+  <li><input type="checkbox" data-id="q77">【劇情】測試執行能力（191等、能力點數+6）</li>
+  <li><input type="checkbox" data-id="q78">【劇情】測試執行能力(2)（195等、能力點數+9）</li>
+  <li><input type="checkbox" data-id="q79">【劇情】測試執行能力(3)（199等、能力點數+12）</li>
+  <li><input type="checkbox" data-id="q80">【劇情】製作特殊戒指(193等)</li>
 </ul>
 </div>
 
 <h4>NPC: 陽台</h4>
 <div class="quest-container">
 <ul class="quest-list">
-  <li><input type="checkbox" data-id="q81">【劇情】鐵絲網上的小花（技能點數+4）</li>
+  <li><input type="checkbox" data-id="q81">【劇情】鐵絲網上的小花（192等、技能點數+4）</li>
 </ul>
 </div>
 
@@ -333,10 +333,10 @@ excerpt: 亂2 Online 任務進度追蹤清單，支援多角色進度、匯入�
 <h4>NPC: 虎令氣功部學生</h4>
 <div class="quest-container"> 
 <ul class="quest-list">
-  <li><input type="checkbox" data-id="q84">【劇情】蒐集認證書材料（技能點數+2）</li>
-  <li><input type="checkbox" data-id="q85">【劇情】我們的約定（技能點數+1、NPC：B1－虎令劍道部學生）</li>
-  <li><input type="checkbox" data-id="q86">【劇情】血荒（技能點數+2、NPC：本館－崔基範）</li>
-  <li><input type="checkbox" data-id="q87">【劇情】封印結界（技能點數+3、NPC：操場－江希珍）</li>
+  <li><input type="checkbox" data-id="q84">【劇情】蒐集認證書材料（前置：異象調查、技能點數+2）</li>
+  <li><input type="checkbox" data-id="q85">【劇情】我們的約定（前置：蒐集認證書材料、技能點數+1、NPC：B1－虎令劍道部學生）</li>
+  <li><input type="checkbox" data-id="q86">【劇情】血荒（前置：蒐集認證書材料、技能點數+2、NPC：本館－崔基範）</li>
+  <li><input type="checkbox" data-id="q87">【劇情】封印結界（前置：蒐集認證書材料、技能點數+3、NPC：操場－江希珍）</li>
 </ul>
 </div>
 
@@ -350,11 +350,11 @@ excerpt: 亂2 Online 任務進度追蹤清單，支援多角色進度、匯入�
 <h4>NPC: 技術老師[虎令]</h4>
 <div class="quest-container"> 
 <ul class="quest-list">
-  <li><input type="checkbox" data-id="q88">【劇情】蟲之血</li>
-  <li><input type="checkbox" data-id="q89">【劇情】亡羊補牢（技能點數+2、NPC：B2－研究生）</li>
+  <li><input type="checkbox" data-id="q88">【重複】蟲之血（165等）</li>
+  <li><input type="checkbox" data-id="q89">【劇情】亡羊補牢（前置:蟲之血(解完就要接，不然會無法接)、技能點數+2、NPC：B2－研究生）</li>
   <li><input type="checkbox" data-id="q90">【劇情】暴動的學生（前置：異象調查、NPC：本館－老師）</li>
-  <li><input type="checkbox" data-id="q91">【劇情】暴動的真相（NPC：本館－老師）</li>
-  <li><input type="checkbox" data-id="q92">【劇情】瘋狂的開端（技能點數+3、NPC：本館－老師）</li>
+  <li><input type="checkbox" data-id="q91">【劇情】暴動的真相（前置：暴動的學生、NPC：本館－老師）</li>
+  <li><input type="checkbox" data-id="q92">【劇情】瘋狂的開端（前置：暴動的真相、技能點數+3、NPC：本館－老師）</li>
 </ul>
 </div>
 
@@ -382,16 +382,16 @@ excerpt: 亂2 Online 任務進度追蹤清單，支援多角色進度、匯入�
 <h4>NPC: 斯利普議會長</h4>
 <div class="quest-container">
 <ul class="quest-list">
-  <li><input type="checkbox" data-id="q94">【劇情】議會的委託</li>
-  <li><input type="checkbox" data-id="q95">【劇情】深牢之怨（技能點數+5，能力點數+1）</li>
+  <li><input type="checkbox" data-id="q94">【劇情】議會的委託（180等）</li>
+  <li><input type="checkbox" data-id="q95">【劇情】深牢之怨（194等、技能點數+5，能力點數+1）</li>
 </ul>
 </div>
 
 <h4>NPC: Dr.J</h4>
 <div class="quest-container">
 <ul class="quest-list">
-  <li><input type="checkbox" data-id="q96">【劇情】失落的一段情</li>
-  <li><input type="checkbox" data-id="q97">【劇情】秘密生化實驗（技能點數+3）</li>
+  <li><input type="checkbox" data-id="q96">【劇情】失落的一段情（162等）</li>
+  <li><input type="checkbox" data-id="q97">【劇情】秘密生化實驗（135等、技能點數+3）</li>
 </ul>
 </div>
 
@@ -405,7 +405,7 @@ excerpt: 亂2 Online 任務進度追蹤清單，支援多角色進度、匯入�
 <h4>NPC: 星辰守護者</h4>
 <div class="quest-container">
 <ul class="quest-list">
-  <li><input type="checkbox" data-id="q98">【劇情】原罪之書的關聯（能力點數+3）</li>
+  <li><input type="checkbox" data-id="q98">【劇情】原罪之書的關聯（前置：突如其來的研究論文、能力點數+3）</li>
 </ul>
 </div>
 
@@ -419,9 +419,9 @@ excerpt: 亂2 Online 任務進度追蹤清單，支援多角色進度、匯入�
 <h4>NPC: 風紀官－彭文太</h4>
 <div class="quest-container">
 <ul class="quest-list">
-  <li><input type="checkbox" data-id="q99">【劇情】發現青基地</li>
-  <li><input type="checkbox" data-id="q100">【劇情】青基地的主事者（NPC：青基地A區3F－青基地角頭）</li>
-  <li><input type="checkbox" data-id="q101">【劇情】來自青基地的援助（技能點數+1、NPC：陽光男孩）</li>
+  <li><input type="checkbox" data-id="q99">【劇情】發現青基地（185等）</li>
+  <li><input type="checkbox" data-id="q100">【劇情】青基地的主事者（前置：發現青基地、NPC：青基地A區3F－青基地角頭）</li>
+  <li><input type="checkbox" data-id="q101">【劇情】來自青基地的援助（前置：青基地的主事者、技能點數+1、NPC：陽光男孩）</li>
 </ul>
 </div>
 
@@ -473,10 +473,10 @@ excerpt: 亂2 Online 任務進度追蹤清單，支援多角色進度、匯入�
 <h4>NPC: 申元貞</h4>
 <div class="quest-container">
 <ul class="quest-list">
-  <li><input type="checkbox" data-id="q102">【劇情】小龍女的消失（能力點數+1）</li>
-  <li><input type="checkbox" data-id="q103">【劇情】追姬（能力點數+1）</li>
-  <li><input type="checkbox" data-id="q104">【劇情】龍女憐香（能力點數+6）</li>
-  <li><input type="checkbox" data-id="q105">【劇情】不遠的將來（能力點數+10）</li>
+  <li><input type="checkbox" data-id="q102">【劇情】小龍女的消失（211等，能力點數+1）</li>
+  <li><input type="checkbox" data-id="q103">【劇情】追姬（前置：小龍女的消失、能力點數+1）</li>
+  <li><input type="checkbox" data-id="q104">【劇情】龍女憐香（前置：追姬、能力點數+6）</li>
+  <li><input type="checkbox" data-id="q105">【劇情】不遠的將來（前置：龍女憐香、能力點數+10）</li>
 </ul>
 </div>
 
