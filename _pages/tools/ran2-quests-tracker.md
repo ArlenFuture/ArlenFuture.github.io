@@ -493,9 +493,6 @@ excerpt: 亂2 Online 任務進度追蹤清單，支援多角色進度、匯入�
   <li><input type="checkbox" data-id="q106">【劇情】龍女憐香的煩惱（技能點數+2）</li>
   <li><input type="checkbox" data-id="q107">【劇情】九方黎生的請求(1)（技能點數+5）</li>
   <li><input type="checkbox" data-id="q108">【劇情】蒼龍的未來（技能點數+8）</li>
-  <li><input type="checkbox" data-id="q109">【劇情】九方黎生的請求(2)（技能點數+6）</li>
-  <li><input type="checkbox" data-id="q110">【劇情】最後的機會（技能點數+9）</li>
-  <li><input type="checkbox" data-id="q111">【劇情】混亂的始源</li>
 </ul>
 </div>
 
