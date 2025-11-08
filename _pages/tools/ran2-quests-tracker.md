@@ -117,7 +117,7 @@ excerpt: 亂2 Online 任務進度追蹤清單，支援多角色進度、匯入�
 <blockquote>掃除炸彈、淨化公園 固定在聖門洞物理老師，其於任務在各學院洞對應的物理老師接取。</blockquote>
 <div class="quest-container">
 <ul class="quest-list">
-  <li><label>以下三校任務名稱不同，玄嚴玩家有空再跟我回報任務名稱</label></li>
+  <li><label>以下三校任務能解的不同，透過轉學卡可以全解</label></li>
   <li><input type="checkbox" data-id="q17">【劇情】打倒冰凍可魯(聖門)|【劇情】淨化廢車場(鳳凰)|【劇情】掃除剪刀手(玄嚴)（52等、技能點數+1）</li>
   <li><input type="checkbox" data-id="q18">【劇情】掃除炸彈（62等、技能點數+1）</li>
   <li><input type="checkbox" data-id="q19">【劇情】淨化公園（66等、技能點數+1）</li>
