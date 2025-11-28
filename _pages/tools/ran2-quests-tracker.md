@@ -215,7 +215,8 @@ excerpt: 亂2 Online 任務進度追蹤清單，支援多角色進度、匯入�
 <ul class="quest-list">
   <li><input type="checkbox" data-id="q48">【劇情】回收卡車鑰匙(112等)</li>
   <li><input type="checkbox" data-id="q49">【劇情】汽油回收(前置：回收卡車鑰匙) </li>
-  <li><input type="checkbox" data-id="q50">【劇情】去見老人（前置：汽油回收、技能點數+3）</li>
+  <li><input type="checkbox" data-id="q142">【劇情】修理卡車(前置：汽油回收) </li>
+  <li><input type="checkbox" data-id="q50">【劇情】去見老人（前置：修理卡車、技能點數+3）</li>
 </ul>
 </div>
 
