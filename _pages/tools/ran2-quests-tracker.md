@@ -15,18 +15,18 @@ excerpt: 亂2 Online 任務進度追蹤清單，支援多角色進度、匯入�
 
 > 請優先查看公車司機、虎令、監獄及人人任務的提示，這幾個任務有BUG、限制等級或戰力條件。
 
-## ⚠️ 新大阪斷線 & 寵物異常提醒
+## ⚠️ 斷線異常 & 機率問題提醒
 <div style="border:2px solid #f00; padding:15px; background-color:#fff3f3; text-align:center; margin-bottom:20px;">
-  <h3 style="color:#d00;">⚠️ 新大阪斷線 & 寵物異常追蹤</h3>
+  <h3 style="color:#d00;">⚠️ 斷線異常 & 機率問題追蹤</h3>
   <!-- 正確的 YouTube embed 內嵌影片 -->
   <iframe width="560" height="315" 
-          src="https://www.youtube.com/embed/UNY2egRrwNk" 
-          title="新大阪斷線事件追蹤" 
+          src="https://www.youtube.com/embed/p5wPFYjUQGk" 
+          title="斷線、機率問題事件追蹤" 
           frameborder="0" 
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
           allowfullscreen>
   </iframe>
-  <p>如果你在遊戲中有遇到 <strong>斷線、寵物異常或付費道具損失</strong>，建議 <strong>到消保會申訴</strong> 保護自己的權益！</p>
+  <p>如果你在遊戲中有遇到 <strong>斷線、寵物異常或付費道具損失</strong>，建議 <strong>到數發部民意信箱申訴</strong> 保護自己的權益！</p>
 </div>
 
 ## 參考資料
@@ -542,7 +542,7 @@ excerpt: 亂2 Online 任務進度追蹤清單，支援多角色進度、匯入�
 <blockquote>以下人人有功練任務必須要在限定等級內完成，否則任務自動消失。</blockquote>
 <div class="quest-container">
 <ul class="quest-list">
-  <li><input type="checkbox" data-id="q124">【劇情】惹事生非的街道 (100-120等)</li>
+  <li><input type="checkbox" data-id="q143">【劇情】惹事生非的街道 (100-120等)</li>
   <li><input type="checkbox" data-id="q124">【劇情】變態三男的逆襲 (110-130等)（技能點數+1 能力點數+1）</li>
   <li><input type="checkbox" data-id="q125">【劇情】賊頭殺殺殺 (120-140等)（技能點數+1 能力點數+1）</li>
   <li><input type="checkbox" data-id="q126">【劇情】怒殺野鴛鴦 (130-150等)（技能點數+1 能力點數+1）</li>
