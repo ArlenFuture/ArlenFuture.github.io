@@ -15,20 +15,6 @@ excerpt: 亂2 Online 任務進度追蹤清單，支援多角色進度、匯入�
 
 > 請優先查看公車司機、虎令、監獄及人人任務的提示，這幾個任務有BUG、限制等級或戰力條件。
 
-## ⚠️ 斷線異常 & 機率問題提醒
-<div style="border:2px solid #f00; padding:15px; background-color:#fff3f3; text-align:center; margin-bottom:20px;">
-  <h3 style="color:#d00;">⚠️ 斷線異常 & 機率問題追蹤</h3>
-  <!-- 正確的 YouTube embed 內嵌影片 -->
-  <iframe width="560" height="315" 
-          src="https://www.youtube.com/embed/p5wPFYjUQGk" 
-          title="斷線、機率問題事件追蹤" 
-          frameborder="0" 
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-          allowfullscreen>
-  </iframe>
-  <p>如果你在遊戲中有遇到 <strong>斷線、寵物異常或付費道具損失</strong>，建議 <strong>到數發部民意信箱申訴</strong> 保護自己的權益！</p>
-</div>
-
 ## 參考資料
 - [巴哈姆特 不要有名字(gc10726) 攻略文章及 PDF](https://forum.gamer.com.tw/C.php?bsn=5270&snA=85329)
 
