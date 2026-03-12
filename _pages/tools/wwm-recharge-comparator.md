@@ -82,6 +82,16 @@ label {
 
 <div class="calc-container">
 
+<!-- 儲值建議圖 -->
+<div style="text-align: center; margin-bottom: 20px;">
+    <img src="/assets/images/post/tools/wwm-recharge-comparator/wwm-recharge-guide.jpg" 
+         alt="燕雲十六聲儲值面額建議" 
+         style="max-width: 100%; border-radius: 8px;">
+    <p style="margin-top: 10px; font-size: 0.95rem; color: #555;">
+        完成首儲獎勵後，黃色區塊的面額 CP 值最高，建議作為日常儲值的優先選擇。
+    </p>
+</div>
+
 <div class="section">
     <h3>基本</h3>
     <label>消費金額</label>
