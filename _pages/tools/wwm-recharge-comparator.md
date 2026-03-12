@@ -24,6 +24,20 @@ canonical_url: https://arlenfuture.github.io/tools/wwm-recharge-comparator/
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
+.calc-container input[type="checkbox"] {
+    width: auto;
+    padding: 0;
+    margin-top: 0;
+    vertical-align: middle;
+}
+
+.calc-container label:has(input[type="checkbox"]) {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+}
+
 .section {
     margin-top: 25px;
 }
